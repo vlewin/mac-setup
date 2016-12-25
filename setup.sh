@@ -49,8 +49,12 @@ brew install  Caskroom/cask/atom
 apm install autocomplete-paths language-vue pigments vue-autocomplete
 
 tput setaf 4; echo "*** Additional applications"
-brew install Caskroom/cask/liteicon
-brew install Caskroom/cask/github-desktop
+brew cask install appcleaner
+brew cask install coconutbattery
+brew cask install liteicon
+brew cask install github-desktop
+brew cask install the-unarchiver
+brew cask install telegram-desktop
 
 # System optimizations
 tput setaf 4; echo '*** System optimizations'
