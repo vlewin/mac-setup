@@ -46,7 +46,7 @@ fi
 tput setaf 4; echo "*** Atom setup"
 brew install  Caskroom/cask/atom
 
-apm install autocomplete-paths language-vue pigments vue-autocomplete highlight-selected file-icons
+apm install autocomplete-paths language-vue pigments vue-autocomplete highlight-selected file-icons indent-guide-improved
 
 tput setaf 4; echo "*** Additional applications"
 brew cask install appcleaner
