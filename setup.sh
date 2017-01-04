@@ -60,6 +60,7 @@ brew cask install github-desktop
 brew cask install the-unarchiver
 brew cask install telegram-desktop
 brew cask install spectacle
+brew cask install hyperswitch
 
 # System optimizations
 tput setaf 4; echo '*** System optimizations'
