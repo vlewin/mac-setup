@@ -59,6 +59,7 @@ brew cask install liteicon
 brew cask install github-desktop
 brew cask install the-unarchiver
 brew cask install telegram-desktop
+brew cask install spectacle
 
 # System optimizations
 tput setaf 4; echo '*** System optimizations'
