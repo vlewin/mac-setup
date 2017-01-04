@@ -46,7 +46,11 @@ fi
 tput setaf 4; echo "*** Atom setup"
 brew install  Caskroom/cask/atom
 
-apm install autocomplete-paths language-jade language-vue language-docker pigments vue-autocomplete highlight-line swackets synced-sidebar highlight-selected linter-eslint linter-jscs  file-icons indent-guide-improved
+apm install autocomplete-paths indent-guide-improved file-icons highlight-line highlight-selected synced-sidebar
+apm install color-picker pigments swackets
+apm install language-jade language-docker language-vue
+apm install editorconfig linter linter-eslint linter-jscs linter-docker
+apm install vue-hyperclick js-hyperclick hyperclick vue-autocomplete
 
 tput setaf 4; echo "*** Additional applications"
 brew cask install appcleaner
